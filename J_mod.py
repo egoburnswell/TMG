@@ -89,10 +89,10 @@ if __name__ == "__main__":
   from numpy import arange
   
 ## Green's function test  
-  
+  set_strain( strain = 0.1 )
   for E in arange(-3,3, 0.01):
      En = E + i*eta
-     G2 = Green( 1.0e-4, 100,  En, 0, 0, 0)
+     G2 = Green_strain( 1.0e-4, 100,  En, 0, 0, 0)
      print En.real, G2.real, G2.imag
       
 
