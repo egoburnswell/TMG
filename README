@@ -1,3 +1,21 @@
+==GIT==
+Setup:
+mkdir git_tmg
+cd git_tmg
+git init
+git remote add origin http://github.com/username/project.git
+git pull
+
+Edits:
+make your edits
+git add file1 file2 etc
+OR
+git add . // all files
+git commit -m 'names of edit or brief summary of change'
+git push -f
+
+
 GF_MOD.F95
 CONTAINS:
+
 
